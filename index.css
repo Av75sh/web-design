@@ -1,0 +1,60 @@
+@font-face {
+    font-family: Product Sans;
+    src: url();
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100vh;
+    background-color: #F08080;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    padding: 0vw 10vw;
+    align-items: center;
+    justify-content: space-between;
+    /*background-color: antiquewhite; */
+    position: fixed;
+}
+
+nav a, i{
+    text-decoration: none;
+    color: #fff;
+}
+
+.cntr-nav{
+    display: flex;
+    gap: 4vw;
+}
+
+nav i{
+    size: 1.5vw;
+}
+
+.one {
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(120deg, #765656 #a3781d);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#z1{
+    width: 25%;
+}
